@@ -115,17 +115,8 @@ class _RegisterPageState extends State<RegisterPage> {
     );
   }
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('회원가입'),
-      ),
-      body: Column(
-        children: [
-          _renderInputField(),
-          SizedBox(height: 30),
-          ElevatedButton(
+  _button() {
+    return ElevatedButton(
             onPressed: () async {
               if (idController.text == '' ||
                   pwController.text == '' ||
@@ -171,7 +162,20 @@ class _RegisterPageState extends State<RegisterPage> {
               }
             },
             child: Text('회원가입'),
-          )
+          );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('회원가입'),
+      ),
+      body: Column(
+        children: [
+          _renderInputField(),
+          SizedBox(height: 30),
+          _button(),
         ],
       ),
     );

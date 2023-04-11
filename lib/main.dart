@@ -1,6 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:shopping_app/page/homepage.dart';
+import 'package:shopping_app/page/homepageceller.dart';
 import 'package:shopping_app/page/log_in_page.dart';
 import 'package:shopping_app/page/splashpage.dart';
 // Import the generated file

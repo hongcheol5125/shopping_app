@@ -13,7 +13,7 @@ class User {
   factory User.fromJson(Map<String, dynamic> json) => _$UserFromJson(json);
   Map<String, dynamic> toJson() => _$UserToJson(this);
 }
-
+// "register_page 145번줄" 이렇게 써야 오타로 인한 에러 방지된다!
 class UserType {
   static String celler = "운영자";
   static String buyer = "구매자";

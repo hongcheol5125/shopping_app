@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:shopping_app/page/homepage.dart';
 import 'package:shopping_app/page/log_in_page.dart';
 
 class SplashPage extends StatefulWidget {
