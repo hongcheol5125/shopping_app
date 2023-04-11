@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "856077968429",
+    "project_id": "shopping-app-hong",
+    "storage_bucket": "shopping-app-hong.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856077968429:android:ee610fe3e055d2c16f84a4",
+        "android_client_info": {
+          "package_name": "com.example.shopping_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856077968429-s6e1u2hi7qlg2e8ijjlqj6ev102ch4kn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkOw_k-dJDEFtNZjQsJPrq1dUgiGCBus4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856077968429-s6e1u2hi7qlg2e8ijjlqj6ev102ch4kn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
