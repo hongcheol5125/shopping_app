@@ -139,14 +139,19 @@ class _LogInPageState extends State<LogInPage> {
       appBar: AppBar(
         title: Text('LOGO'),
       ),
-      body: Column(
-        children: [
-          Image.asset('asset/img/japan6.jpg'),
-          _textField(),
-          SizedBox(height: 16),
-          _elevatedButton(),
-          _textButton(),
-        ],
+      body: GestureDetector(
+        onTap: () => FocusScope.of(context).unfocus(),
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              Image.asset('asset/img/japan6.jpg'),
+              _textField(),
+              SizedBox(height: 16),
+              _elevatedButton(),
+              _textButton(),
+            ],
+          ),
+        ),
       ),
     );
   }
